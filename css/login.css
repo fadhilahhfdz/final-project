@@ -1,0 +1,23 @@
+body {
+    background-color: #6B21A8;
+}
+  .card {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 530px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 530px) and (max-width: 576px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
